@@ -1,0 +1,32 @@
+.custom-nav {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .hover-button {
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .hover-button:hover {
+    background-color: #A6AEBF;
+    color: #fff; 
+    border-color: #bdbdbd; 
+  }
+
+  .custom-card {
+    background-color: #F2F9FF;
+    margin-top: 50px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  background-color: white; 
+}

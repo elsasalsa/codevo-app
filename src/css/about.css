@@ -1,0 +1,52 @@
+.container-about h1 {
+    justify-content: start;
+    margin: 50px 50px 10px 50px;
+}
+
+.desc-about p {
+    justify-content: start;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.container-about {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px; 
+    margin: 20px 50px;
+    width: 100%;
+}
+
+.desc-about {
+    flex: 1; 
+    text-align: justify; 
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.structure {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    max-width: 50%;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.structure .small-text {
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.structure .name {
+    white-space: nowrap;
+}
